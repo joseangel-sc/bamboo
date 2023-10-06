@@ -27,3 +27,6 @@ class Series:
 
     def __repr__(self):
         return self.__str__()
+
+    def add(self):
+        return sum(self.values)
