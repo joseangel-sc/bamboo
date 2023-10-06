@@ -22,3 +22,12 @@ class DataFrame:
             df[column_names[i]] = Series(column_record)
 
         return df
+
+if __name__ == '__main__':
+    data = [
+        {'name': 'John', 'age': 23},
+        {'name': 'Jane', 'age': 25},
+        {'name': 'Joe', 'age': 21},
+    ]
+    df = DataFrame(data)
+    print(df)
